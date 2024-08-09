@@ -1,4 +1,5 @@
 import React from "react";
+
 // create a profile component in reactJS.
 export default function ProfilerCard(){
     return (
@@ -8,10 +9,10 @@ export default function ProfilerCard(){
 
                         <div className="relative">
                             <div className="absolute left-[112px] top-[120px]">
-                                <img src="src/images.jpeg" alt="" className="h-24 w-24 rounded-full "/>
+                                <img src="images.jpeg" alt="" className="h-24 w-24 rounded-full "/>
                             </div>
                             <div className="h-44 w-80">
-                                <img src='src/images.webp' alt="" className="h-44 w-80"/>
+                                <img src="images.webp" alt="" className="h-44 w-80"/>
                             </div>
                             <div className="h-36 w-80 bg-white ">
                                 <div className="flex flex-col h-full justify-center items-center">
